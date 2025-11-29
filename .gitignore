@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build outputs
+dist/
+build/
+out/
+
+# Secrets
+secrets.yaml
+secrets.yml
+*.key
+*.pem
+credentials.json
+
+# Test outputs
+coverage/
+.nyc_output/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
